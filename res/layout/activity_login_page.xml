@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_page"
+    >
+
+    <RelativeLayout
+        android:layout_width="421dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <EditText
+            android:id="@+id/user_input_email"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="336dp"
+            android:hint="Email Address"
+            android:text="kit1997330@gmail.com"
+            android:textColor="@color/white"
+            android:textColorHint="@color/hint" />
+
+        <EditText
+            android:id="@+id/user_input_password"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="295dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:text="95769632qwer"
+            android:textColor="@color/white"
+            android:textColorHint="@color/hint" />
+
+        <Button
+            android:id="@+id/Register_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="57dp"
+            android:background="@null"
+            android:text="SIGN UP"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/Login_btn"
+            android:layout_width="285dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="207dp"
+            android:background="@drawable/mybutton"
+            android:fontFamily="sans-serif-medium"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="123dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            tools:text="If you do not have an account. Create a NEW!" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="167dp"
+            android:layout_height="147dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="133dp"
+            android:src="@drawable/icon2" />
+
+    </RelativeLayout>
+
+   <!--<ImageView-->
+        <!--android:id="@+id/imageView5"-->
+        <!--android:layout_width="155dp"-->
+        <!--android:layout_height="141dp"-->
+        <!--android:src="@drawable/icon1"-->
+        <!--tools:layout_editor_absoluteX="128dp"-->
+        <!--tools:layout_editor_absoluteY="92dp" />-->
+
+</android.support.constraint.ConstraintLayout>

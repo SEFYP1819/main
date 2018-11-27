@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:id="@+id/date_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Date View"
+        android:textSize="30sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/name_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:text="Name View"
+        android:layout_marginStart="20dp"
+        android:layout_below="@+id/date_view"/>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/chart"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="173dp" />
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="200dp"
+        android:layout_height="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="237dp"
+        android:layout_marginStart="62dp"
+        android:background="#10ffffff"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:text="Risk Aversion Index"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/RiskAversionIndex"
+        android:layout_width="80dp"
+        android:layout_height="37dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/title1"
+        android:layout_marginEnd="67dp"
+        android:background="#10ffffff"
+        android:textColor="@color/dark_gray"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="200dp"
+        android:layout_height="37dp"
+        android:layout_alignStart="@+id/title1"
+        android:layout_below="@+id/title1"
+        android:layout_marginTop="-235dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:text="Risk"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/RiskyRisk"
+        android:layout_width="80dp"
+        android:layout_height="37dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:layout_alignStart="@+id/RiskAversionIndex"
+        android:layout_below="@+id/title1"
+        android:layout_marginTop="-235dp"
+        android:textColor="@color/dark_gray"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/title3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/title1"
+        android:layout_below="@+id/title2"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:background="#10ffffff"
+        android:text="Risky Return"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/RiskyReturn"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:layout_alignStart="@+id/RiskAversionIndex"
+        android:layout_below="@+id/title2"
+        android:background="#10ffffff"
+        android:textColor="@color/dark_gray"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/title4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:layout_alignStart="@+id/title1"
+        android:layout_below="@+id/title3"
+        android:text="Risky Wts 1"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/RiskyWts_1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title3"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:layout_toEndOf="@+id/title1"
+        android:textColor="@color/dark_gray"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/title5"
+        android:layout_width="200dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/title1"
+        android:layout_below="@+id/title4"
+        android:background="#10ffffff"
+        android:text="Risky Wts 2"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/RiskyWts_2"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:layout_alignStart="@+id/RiskAversionIndex"
+        android:layout_below="@+id/title4"
+        android:background="#10ffffff"
+        android:textColor="@color/dark_gray"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/title6"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:layout_alignStart="@+id/title1"
+        android:layout_below="@+id/title5"
+        android:text="Risky Wts 3"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/RiskyWts_3"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/title5"
+        android:layout_toEndOf="@+id/title1"
+        android:textColor="@color/dark_gray"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

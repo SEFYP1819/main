@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">SEFYP</string>
+
+    <array name="sex_choice">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Undisclosed</item>
+    </array>
+
+    <array name="age_group_choice">
+        <item>18 or below</item>
+        <item>19-34</item>
+        <item>35-49</item>
+        <item>50-64</item>
+        <item>65 or above</item>
+    </array>
+
+    <array name="occupation_choice">
+        <item>Blue Collar</item>
+        <item>White Collar</item>
+        <item>Retired</item>
+        <item>Self-employed</item>
+        <item>Student</item>
+        <item>Others</item>
+    </array>
+
+    <array name="marry_choice">
+        <item>Single</item>
+        <item>Married</item>
+        <item>Others</item>
+    </array>
+
+    <array name="income_choice">
+        <item>below $120,000</item>
+        <item>$120,001-$240,000</item>
+        <item>$240,001-$360,000</item>
+        <item>$360,001-$480,000</item>
+        <item>$480,001-$600,000</item>
+        <item>above $600,001</item>
+    </array>
+</resources>
